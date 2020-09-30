@@ -1,6 +1,6 @@
 ARG BASE_IMAGE_ARCH="amd64"
 
-FROM ${BASE_IMAGE_ARCH}/alpine:3.12
+FROM ${BASE_IMAGE_ARCH}/alpine:latest
 
 VOLUME /var/www/app/data
 VOLUME /var/www/app/plugins
